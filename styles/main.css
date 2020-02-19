@@ -119,12 +119,9 @@ border: solid 2px red;
   background: #fff;
 }
 
-#linea-contenuto {
-  position: relative; top: 20px;
-  border: solid 1px #999;
-}
+
 #email-testo {
- position: relative; top: 30px;
+ position: relative; top: 10px;
  left: 10px;
 }
 
