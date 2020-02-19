@@ -15,14 +15,14 @@ body {
 /* header */
 
 #logo {
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
   margin: 10px;
   vertical-align: middle;
 }
 
 #titolo {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 700;
   color: #fff;
 }
@@ -33,7 +33,7 @@ body {
 
 #tasto-cerca {
   display: inline-block;
-  margin-left: 300px;
+  margin-left: 369px;
 }
 
 /* avviso non letti*/
@@ -62,7 +62,7 @@ body {
 .pulsanti {
   display: inline-block;
   border: 2px solid #ccc;
-  width: 80px;
+  width: 109px;
   height: 20px;
   background: #fff;
   text-align: center;
