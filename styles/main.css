@@ -39,18 +39,19 @@ body {
 /* avviso non letti*/
 
 #numero-non-letti {
+  display: inline-block;
   color: #fff;
-  margin:10px 0;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
+  margin-left: 15px;
 }
 
 .numero {
   display: inline-block;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   text-align: center;
-  line-height: 40px;
+  line-height: 30px;
   background-color: #999;
   border-radius: 50%;
   font-weight: 700;
@@ -66,6 +67,11 @@ body {
   background: #fff;
   text-align: center;
   font-weight: 700;
+}
+
+#posizione-pulsanti {
+  display: inline-block;
+  margin-left: 21px;
 }
 
 /* lista email */
