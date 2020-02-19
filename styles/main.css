@@ -1,0 +1,97 @@
+/* general styles */
+body {
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0;
+  background-image: url(../img/sfondo.jpg);
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+#contenitore {
+  width: 1000px;
+  margin: auto;
+}
+
+/* header */
+
+#logo {
+  width: 100px;
+  height: 100px;
+  margin: 20px 10px 10px 0px;
+  vertical-align: middle;
+}
+
+#titolo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* barra ricerca + avviso*/
+
+#tasto-cerca {
+  margin: 10px 0;
+}
+
+#numero-non-letti {
+  color: #fff;
+  margin:10px 0;
+  font-size: 24px;
+}
+
+.numero {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #ccc;
+  border-radius: 50%;
+  font-weight: 700;
+}
+
+/* box-pulsanti */
+
+.pulsanti {
+  display: inline-block;
+  border: 2px solid #ccc;
+  width: 80px;
+  height: 20px;
+  background: #fff;
+  text-align: center;
+  font-weight: 700;
+}
+
+/* lista email */
+.email {
+  padding: 10px;
+  border: solid 2px #ccc;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.nonletti {
+  background: #fff;
+}
+
+.letti {
+  background: rgba(255,255,255, 0.8);
+}
+
+.testo-aggiuntivo::after {
+  content: '...'
+}
+
+.testo-aggiuntivo::before {
+  content: '- '
+}
+
+/* footer */
+#finale-pagina {
+  color: #fff;
+  text-align: center;
+}
+
+#gmail-text {
+  font-size: 25px;
+}
