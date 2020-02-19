@@ -11,20 +11,19 @@
     <!-- header -->
     <div id="contenitore">
       <header>
-        <img id="logo" src="img/logo.png" alt="logo-gmail">
+        <img id="logo" src="img/logo-rotondo.png" alt="logo-gmail">
         <span id="titolo">Gmail</span>
-        <hr>
+        <!-- tasto cerca -->
+        <div id="tasto-cerca">
+          <input type="text" name="search" value="" placeholder="Cerca nella tua posta" style="width: 400px;">
+          <input type="submit" name="" value="Cerca">
+        </div>
+        <hr class="linee-hr">
       </header>
 
       <main>
         <!-- tasto cerca + numero messaggi non letti -->
         <section>
-          <!-- tasto cerca -->
-          <div id="tasto-cerca">
-            <input type="text" name="search" value="" placeholder="Search" style="width: 200px;">
-            <input type="submit" name="" value="invia">
-          </div>
-
           <!-- numero messaggi non letti -->
           <div id="numero-non-letti" >
             Hai <span class="numero">5</span> messaggi non letti
@@ -52,7 +51,7 @@
             </div>
           </div>
 
-          <hr>
+          <hr class="linee-hr">
         </section>
 
         <!-- lista-email -->

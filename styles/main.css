@@ -17,21 +17,26 @@ body {
 #logo {
   width: 100px;
   height: 100px;
-  margin: 20px 10px 10px 0px;
+  margin: 10px;
   vertical-align: middle;
 }
 
 #titolo {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 700;
   color: #fff;
 }
 
-/* barra ricerca + avviso*/
+.linee-hr {
+  border: solid 2px #fff;
+}
 
 #tasto-cerca {
-  margin: 10px 0;
+  display: inline-block;
+  margin-left: 300px;
 }
+
+/* avviso non letti*/
 
 #numero-non-letti {
   color: #fff;
