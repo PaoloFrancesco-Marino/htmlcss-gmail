@@ -84,6 +84,10 @@ body {
   background: rgba(255,255,255, 0.6);
 }
 
+#selezionata {
+border: solid 2px red;
+}
+
 .testo-aggiuntivo::after {
   content: '...'
 }
@@ -106,6 +110,15 @@ body {
   border-radius: 5px;
   font-size: 20px;
   background: #fff;
+}
+
+#linea-contenuto {
+  position: relative; top: 20px;
+  border: solid 1px #999;
+}
+#email-testo {
+ position: relative; top: 30px;
+ left: 10px;
 }
 
 /* footer */
