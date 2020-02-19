@@ -2,10 +2,10 @@
 body {
   font-family: 'Noto Sans', sans-serif;
   margin: 0;
-  background-image: url(../img/sfondo.jpg);
+  background-image: url(../img/sfondo-2.jpg);
   background-size: cover;
   box-sizing: border-box;
-}
+  }
 
 #contenitore {
   width: 1000px;
@@ -28,7 +28,7 @@ body {
 }
 
 .linee-hr {
-  border: solid 2px #fff;
+  border: solid 2px #999;
 }
 
 #tasto-cerca {
@@ -42,6 +42,7 @@ body {
   color: #fff;
   margin:10px 0;
   font-size: 24px;
+  font-weight: 700;
 }
 
 .numero {
@@ -50,7 +51,7 @@ body {
   height: 40px;
   text-align: center;
   line-height: 40px;
-  background-color: #ccc;
+  background-color: #999;
   border-radius: 50%;
   font-weight: 700;
 }
@@ -70,7 +71,7 @@ body {
 /* lista email */
 .email {
   padding: 10px;
-  border: solid 2px #ccc;
+  border: solid 2px #999;
   border-radius: 5px;
   font-size: 20px;
 }
@@ -80,7 +81,7 @@ body {
 }
 
 .letti {
-  background: rgba(255,255,255, 0.8);
+  background: rgba(255,255,255, 0.6);
 }
 
 .testo-aggiuntivo::after {
