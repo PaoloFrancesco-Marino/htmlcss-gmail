@@ -12,6 +12,10 @@ body {
   margin: auto;
 }
 
+.linee-hr {
+  border: solid 2px #999;
+}
+
 /* header */
 
 #logo {
@@ -27,16 +31,30 @@ body {
   color: #fff;
 }
 
-.linee-hr {
-  border: solid 2px #999;
-}
-
 #tasto-cerca {
   display: inline-block;
   margin-left: 369px;
 }
 
-/* avviso non letti*/
+input[type="text"] {
+  border-radius: 5px;
+  height: 23px
+}
+
+input[type="text"]:hover {
+  background: #ccc;
+}
+
+input[type="submit"] {
+  border-radius: 5px;
+  height: 30px;
+}
+
+input[type="submit"]:hover {
+  background: #ccc;
+}
+
+/* sotto-header*/
 
 #numero-non-letti {
   display: inline-block;
@@ -59,10 +77,15 @@ body {
 
 /* box-pulsanti */
 
-.pulsanti {
+#posizione-pulsanti {
+  display: inline-block;
+  margin-left: 21px;
+}
+
+#posizione-pulsanti span {
   display: inline-block;
   border: 2px solid #ccc;
-  width: 109px;
+  width: 132px;
   height: 20px;
   background: #fff;
   text-align: center;
@@ -70,9 +93,8 @@ body {
   border-radius: 5px;
 }
 
-#posizione-pulsanti {
-  display: inline-block;
-  margin-left: 21px;
+#posizione-pulsanti span:hover {
+  background: #ccc;
 }
 
 /* lista email */
@@ -87,13 +109,22 @@ body {
   background: #fff;
 }
 
+.nonletti:hover {
+  background: #ccc;
+}
+
 .letti {
   background: rgba(255,255,255, 0.6);
+}
+
+.letti:hover {
+  background: #ccc;
 }
 
 #selezionata {
 border: solid 2px red;
 }
+
 
 .testo-aggiuntivo::after {
   content: '...'
@@ -120,17 +151,31 @@ border: solid 2px red;
   overflow: scroll;
 }
 
+.contenuto-email span {
+  position: relative;
+   left: 20px;
+   top: 10px;
+}
+
+.contenuto-email hr {
+  margin-top: 20px;
+  width: 640px;
+  border: solid 1px #999;
+}
+
 #email-testo {
- position: relative; top: 10px;
- left: 10px;
+ position: relative; top: 20px;
+ width: 640px;
+ left: 20px;
+ text-align: justify;
 }
 
 /* footer */
-#finale-pagina {
+#finale-pagina  {
   color: #fff;
   text-align: center;
 }
 
-#gmail-text {
+#finale-pagina strong  {
   font-size: 25px;
 }
